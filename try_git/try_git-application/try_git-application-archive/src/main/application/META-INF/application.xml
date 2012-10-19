@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee/application_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <description>The blank project</description>
+  <display-name>try_git-application-archive</display-name>
+  <module>
+    <web>
+      <web-uri>blank-server-mvc.war</web-uri>
+      <context-root>/blank-server-mvc</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>blank-client-web.war</web-uri>
+      <context-root>/blank-client-web</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
